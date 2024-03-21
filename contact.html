@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Tech Store : Contact US</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1> Tech Store</h1>
+            <nav>
+                <ol>
+                    <li><a href="#link" target="_blank">Home | </a></li>
+                    <li><a href="Product-detail.html" target="_blank">Shop | </a></li>
+                    <li><a href="contact.html" target="_blank">Contact Us</a></li>
+                </ol>
+            </nav>
+            <input type="search" placeholder="Search...">
+        </header>
+        
+        <aside>
+            <h2>Shop by : </h2>
+            <section>
+                <h3>Categories</h3>
+                <hr>
+                <ul>
+                    <li>All Items</li>
+                    <li>Cameras</li>
+                    <li>Laptops</li>
+                    <li>Phones</li>
+                    <li>Accessories</li>
+                    <li>Others</li>
+                </ul>
+            </section>
+            <section>
+                <h3> Price <span>($)</span></h3>
+                <hr>
+                <ul>
+                    <li>1-9</li>
+                    <li>10-29</li>
+                    <li>30-59</li>
+                    <li>60-99</li>
+                    <li>100+</li>
+                </ul>
+            </section>
+        </aside>
+        
+        <main>
+            <h2>Contact Us</h2>
+            <form>
+                <div class="inline">
+                    <label for="name">Name : </label>
+                    <input type="text" placeholder="Enter your name" id="name" name="name"><br>
+                </div>
+                <div class="inline">
+                    <label for="email">Email : </label>
+                    <input type="email" placeholder="Enter your email" id="email" name="email"><br>
+                </div>
+                <div class="inline">
+                    <label for="message">Message : </label>
+                    <textarea cols="30" rows="5" id="message" name="message"></textarea>
+                </div class="inline">
+                <!-- <div>
+                    <label for="subjects">Subjects :</label>
+                    <select id="subject">
+                        <optgroup label="Product Issues">
+                            <option value="returns">Returns</option>
+                            <option value="faulty_items">Faulty Items</option>
+                        </optgroup>
+                        <optgroup label="Delivery">
+                            <option value="delivery">Delivery Info</option>
+                            <option value="order_tracking">Order Tracking</option>
+                        </optgroup>
+                        <optgroup label="Others">
+                            <option value="advice">Advice</option>
+                            <option value="others">Others</option>
+                        </optgroup>
+                        
+                    </select>
+                </div> -->
+                
+
+                <div class="inline">
+                    <label for="subject">Subjects :</label>
+                    <input type="text" list="subjects" id="subject" placeholder="Enter your subjects : ">
+                    <datalist id="subjects">
+                        <option value="returns">
+                        <option value="faulty_items">
+                        <option value="delivery">
+                        <option value="order_tracking">
+                        <option value="advice">
+                        <option value="others">
+                    </datalist>
+                </div>
+
+                <div>
+                    <p>Subscribe to future offers by : </p>
+                    <label for="newsletter">Newsletter</label>
+                    <input type="checkbox" id="newsletter" name="subscribe" value="newsletter">
+
+                    <label for="email">Email</label>
+                    <input type="checkbox" id="email" name="subscribe" value="email">
+
+                    <label for="post">Post</label>
+                    <input type="checkbox" id="post" name="subscribe" value="post">
+                </div>
+                <div>
+                    <p>How would you like us to respond ?</p>
+                    <label for="phoneresponse">Phone</label>
+                    <input type="radio" id="phoneresponse" name="response" value="phone">
+
+                    <label for="emailresponse">Email</label>
+                    <input type="radio" id="emailresponse" name="response" value="email">
+                </div>
+                <div>
+                    <br>
+                    <input type="submit">
+                    <input type="reset">
+                    <!-- <button type="submit">Submit</button> -->
+                </div>
+            </form>
+
+            <iframe width="560" height="315" src="" ></iframe>
+                <p>Your browser does not support iframe</p>
+            </iframe>
+
+        </main>
+
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="#link" target="_blank">Home</a></li>
+                    <li><a href="Product-detail.html" target="_blank">Shop</a></li>
+                    <li><a href="contact.html" target="_blank">Contact Us</a></li>
+                </ul>
+            </nav>
+        </footer>
+
+        
+    </body>
+
+</html>
